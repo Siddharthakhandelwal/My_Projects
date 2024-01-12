@@ -1,0 +1,68 @@
+
+#top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+#top a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Shift login and signup to the right */
+.right {
+    margin-left: auto;
+}
+
+.left {
+    margin-right: auto;
+}
+
+/* Style the container */
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Style the carousel */
+.carousel {
+    flex: 1;
+}
+
+.carousel img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+}
+
+/* Style the content */
+.contactus {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+}
+
+.aboutus {
+    flex-basis: 48%; /* Adjust as needed */
+    margin-right: auto;
+}
+
+/* Media query for responsiveness */
+@media only screen and (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .section {
+        flex-basis: 100%;
+    }
+}
