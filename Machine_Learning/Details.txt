@@ -1,0 +1,96 @@
+Id:Records no.
+
+MSSubClass: Identifies the type of dwelling involved in the sale.
+
+20	1-STORY 1946 & NEWER ALL STYLES
+30	1-STORY 1945 & OLDER
+40	1-STORY W/FINISHED ATTIC ALL AGES
+45	1-1/2 STORY - UNFINISHED ALL AGES
+50	1-1/2 STORY FINISHED ALL AGES
+60	2-STORY 1946 & NEWER
+70	2-STORY 1945 & OLDER
+75	2-1/2 STORY ALL AGES
+80	SPLIT OR MULTI-LEVEL
+85	SPLIT FOYER
+90	DUPLEX - ALL STYLES AND AGES
+120	1-STORY PUD (Planned Unit Development) - 1946 & NEWER
+150	1-1/2 STORY PUD - ALL AGES
+160	2-STORY PUD - 1946 & NEWER
+180	PUD - MULTILEVEL - INCL SPLIT LEV/FOYER
+190	2 FAMILY CONVERSION - ALL STYLES AND AGES
+
+MSZoning: Identifies the general zoning classification of the sale.
+
+A	Agriculture
+C	Commercial
+FV	Floating Village Residential
+I	Industrial
+RH	Residential High Density
+RL	Residential Low Density
+RP	Residential Low Density Park
+RM	Residential Medium Density
+
+LotConfig: Lot configuration
+
+Inside	Inside lot
+Corner	Corner lot
+CulDSac	Cul-de-sac
+FR2	Frontage on 2 sides of property
+FR3	Frontage on 3 sides of property
+
+LotArea: Lot size in square feet
+
+
+BldgType: Type of dwelling
+
+1Fam	Single-family Detached
+2FmCon	Two-family Conversion; originally built as one-family dwelling
+Duplx	Duplex
+TwnhsE	Townhouse End Unit
+TwnhsI	Townhouse Inside Unit
+
+
+OverallCond: Rates the overall condition of the house
+
+10	Very Excellent
+9	Excellent
+8	Very Good
+7	Good
+6	Above Average
+5	Average
+4	Below Average
+3	Fair
+2	Poor
+1	Very Poor
+
+YearBuilt: Original construction date
+
+YearRemodAdd: Remodel date (same as construction date if no remodeling or additions)
+
+Exterior1st: Exterior covering on house
+
+AsbShng	Asbestos Shingles
+AsphShn	Asphalt Shingles
+BrkComm	Brick Common
+BrkFace	Brick Face
+CBlock	Cinder Block
+CemntBd	Cement Board
+HdBoard	Hard Board
+ImStucc	Imitation Stucco
+MetalSd	Metal Siding
+Other	Other
+Plywood	Plywood
+PreCast	PreCast
+Stone	Stone
+Stucco	Stucco
+VinylSd	Vinyl Siding
+Wd Sdng	Wood Siding
+WdShing	Wood Shingles
+
+BsmtFinSF2:Type 2 finished square feet.
+
+TotalBsmtSF:Total square feet of basement area
+
+SalePrice:To be predicted
+
+
